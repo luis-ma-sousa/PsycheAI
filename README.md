@@ -1,4 +1,4 @@
-# 🧠 Psyche AI – Psychological Profiling with RAG
+# 🧠 Psyche AI – Understanding Minds through Text with Llama-3 and RAG
 
 **AI-powered psychological profiling system using Retrieval-Augmented Generation (RAG) to analyze characters, historical figures, or any entity based on textual evidence and established psychological theory.**
 
@@ -120,6 +120,24 @@ Open browser at `http://localhost:8501`
 - Click **"Generate"**
 - View structured JSON profile + Markdown report
 - Inspect retrieved evidence chunks (expandable sections)
+
+---
+
+## 📚 Dataset & Licensing
+
+Psyche AI uses text corpora for psychological analysis via RAG.  
+Only **public-domain** or **user-provided** materials are included or processed.
+
+### 📖 Example Sources
+- **Public domain:** *O Principezinho* (Antoine de Saint-Exupéry, 1943) — freely redistributable under EU copyright law.  
+- **Publicly available datasets (not redistributed here):**  
+  - [Harry Potter Books Dataset (Kaggle)](https://www.kaggle.com/datasets/shubhammaindola/harry-potter-books)  
+  - [Movie Scripts Corpus (Kaggle)](https://www.kaggle.com/datasets/gufukuro/movie-scripts-corpus)
+
+> ⚖️ **Disclaimer:** All copyrighted materials remain property of their respective rights holders.  
+> Psyche AI does not host or distribute such content; users are responsible for ensuring legal compliance when uploading or processing external texts.  
+> These dataset links are provided **for educational and research purposes only**.
+
 
 ---
 
