@@ -1,6 +1,10 @@
 # 🧠 Psyche AI – Understanding Minds through Text with Llama-3 and RAG
 
-**AI-powered psychological profiling system using Retrieval-Augmented Generation (RAG) to analyze characters, historical figures, or any entity based on textual evidence and established psychological theory.**
+**Psyche AI** is a proof-of-concept (POC) demonstrating how modern language models and retrieval-augmented generation (RAG) can be applied to **psychological analysis grounded in evidence and theory**.
+
+By combining cognitive science, NLP, and interpretable AI, Psyche AI shows how a future system could support psychologists, educators, and researchers by summarising personality structure, emotional patterns, and coping strategies from any written material — from **literature and case notes to transcripts and interviews**.
+
+While this project is not a diagnostic tool, it illustrates the potential of fine-tuned LLMs and DSM-5-aligned frameworks to enable **transparent, theory-driven AI agents for psychological reasoning**.
 
 ---
 
