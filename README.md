@@ -207,20 +207,23 @@ O Principezinho é um personagem curioso e conscientioso, com uma tendência a b
 
 ## 📁 Project Structure
 ```
-psyche-ai/
-├── app.py                    # Streamlit UI (main entry point)
-├── requirements.txt          # Python dependencies
+PsycheAI/
+├── app.py                         # Streamlit UI (main entry point)
+├── requirements.txt               # Python dependencies
 ├── core/
-│   ├── generation.py        # LLM integration & fallback
-│   ├── prompts.py           # Prompt engineering
-│   ├── index.py             # FAISS vector indexing
-│   ├── loaders.py           # File loading utilities
-│   ├── preprocess.py        # Text chunking & filtering
-│   ├── retrieval.py         # RAG retrieval logic
-│   └── utils.py             # Helper functions
-├── storage/                  # Generated FAISS indices (runtime)
+│   ├── __init__.py              
+│   ├── generation.py              # LLM integration & fallback
+│   ├── prompts.py                 # Prompt engineering
+│   ├── index.py                   # FAISS vector indexing
+│   ├── loaders.py                 # File loading utilities
+│   ├── preprocess.py              # Text chunking & filtering
+│   ├── retrieval.py               # RAG retrieval logic
+│   └── utils.py                   # Helper functions
+├── storage/                       # Generated FAISS indices (runtime)
 └── knowledge/
-    └── psychology/           # Psychology knowledge base
+    ├── __init__.py              
+    └── psychology/                # Psychology knowledge base
+        ├── __init__.py          
         ├── big_five.md
         ├── attachment.md
         ├── coping.md
