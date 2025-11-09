@@ -226,26 +226,28 @@ O Principezinho é um personagem curioso e conscientioso, com uma tendência a b
 ## 📁 Project Structure
 ```
 PsycheAI/
-├── app.py                         # Streamlit UI (main entry point)
-├── requirements.txt               # Python dependencies
-├── core/
-│   ├── __init__.py              
-│   ├── generation.py              # LLM integration & fallback
-│   ├── prompts.py                 # Prompt engineering
-│   ├── index.py                   # FAISS vector indexing
-│   ├── loaders.py                 # File loading utilities
-│   ├── preprocess.py              # Text chunking & filtering
-│   ├── retrieval.py               # RAG retrieval logic
-│   └── utils.py                   # Helper functions
-├── storage/                       # Generated FAISS indices (runtime)
-└── knowledge/
-    ├── __init__.py              
-    └── psychology/                # Psychology knowledge base
-        ├── __init__.py          
-        ├── big_five.md
-        ├── attachment.md
-        ├── coping.md
-        └── defenses.md
+├── app.py                            # Streamlit UI (main entry point)
+├── requirements.txt                  # Python dependencies
+├── core/                             # Core logic modules
+│ ├── init.py
+│ ├── generation.py                   # LLM integration & fallback
+│ ├── prompts.py                      # Prompt engineering
+│ ├── index.py                        # FAISS vector indexing
+│ ├── loaders.py                      # File loading utilities
+│ ├── preprocess.py                   # Text chunking & filtering
+│ ├── retrieval.py                    # RAG retrieval logic
+│ └── utils.py                        # Helper functions
+├── example_input/                    # Public-domain example corpus
+│ ├── 1943_O Principezinho_PT-PT_Antoine de Saint-Exupéry.txt
+│ └── README.md                       # Source and license information
+├── knowledge/                        # Psychology knowledge base
+│ ├── init.py
+│ └── psychology/
+│ ├── big_five.md
+│ ├── attachment.md
+│ ├── coping.md
+│ └── defenses.md
+└── storage/                          # Generated FAISS indices (runtime)
 ```
 
 ---
